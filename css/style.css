@@ -8,3 +8,12 @@
 .clearfix {
   margin: 0;
 }
+
+footer {
+  color: grey;
+  display: none;
+}
+
+footer p {
+  margin: 0;
+}
