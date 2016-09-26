@@ -1,0 +1,65 @@
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#intro {
+  color: white;
+  margin: 0;
+}
+
+#left-intro-div {
+  background-color: #3785FF;
+  margin: 0;
+  padding: 0 4% 0 4%;
+  width: 42%;
+  height: 100vh;
+  float: left;
+}
+
+#intro-title-div {
+  height: 240px;
+  margin-top: -120px;
+}
+
+.intro-div-offset {
+  margin-top: 50vh;
+}
+
+h1 {
+  margin: 0;
+  font-size: 400%;
+  margin-top: -10px;
+}
+
+.small {
+  margin: 0;
+  font-size: 150%;
+  margin-left: 20px;
+}
+
+.medium {
+  margin: 0;
+  font-size: 300%;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.intro-desc {
+  margin: 0;
+  font-size: 120%;
+  margin-top: 10px;
+}
+
+#right-intro-div {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  float: left;
+  background-image: url('http://gomighty.com/wp-content/uploads/2013/05/The%20Art%20Institute%20of%20Chicago.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
