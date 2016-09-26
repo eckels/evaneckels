@@ -49,7 +49,7 @@ h1 {
 .intro-desc {
   margin: 0;
   font-size: 120%;
-  margin-top: 10px;
+  margin-left: 20px;
 }
 
 #right-intro-div {
@@ -58,8 +58,94 @@ h1 {
   padding: 0;
   height: 100vh;
   float: left;
-  background-image: url('http://gomighty.com/wp-content/uploads/2013/05/The%20Art%20Institute%20of%20Chicago.jpg');
+  background-image: url('https://eckels.github.io/evaneckels/img/header.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#about {
+  text-align: center;
+  padding: 30px;
+}
+
+#about h2 {
+  font-size: 250%;
+  margin: 0;
+  color: #3785FF;
+}
+
+#about p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 200%;
+  margin-top: 20px;
+  color: grey;
+  font-size: 110%;
+}
+
+#about img {
+  height: 40px;
+  margin-top: 20px;
+}
+
+#work {
+
+}
+
+#left-work-div {
+  height: 100vh;
+  background-color: #3785FF;
+  width: 40%;
+  text-align: center;
+  position: relative;
+}
+
+#left-work-div h2 {
+  color: white;
+  font-size: 250%;
+  margin: 0;
+  padding-top: 20px;
+}
+
+#left-work-div img {
+  width: 60%;
+  margin-top: 20%;
+}
+
+#left-work-div h3 {
+  color: white;
+  font-size: 200%;
+  margin: 0;
+  margin-top: 5px;
+}
+
+#left-work-div p {
+  color: white;
+  font-size: 110%;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: solid white 2px;
+  height: 46px;
+  font-size: 120%;
+  font-weight: bold;
+  padding: 0 35px 0 35px;
+  border-radius: 23px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+button:hover {
+  background-color: white;
+  color: #3785FF;
+}
+
+#right-work-div {
+
 }
